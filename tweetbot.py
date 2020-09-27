@@ -81,10 +81,10 @@ if review_list != []:
     worstAuthor = worstBook['author'].strip()
 
     tweet = (
-        f'{twoWorstSentences}, {worstLink}')
+        f'{twoWorstSentences} {worstLink}')
 
     cleanTweet = " ".join(tweet.split())
-    print(cleanTweet)
+
     # # Twitter stuff
 
     def tweet():
